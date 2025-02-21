@@ -1,7 +1,5 @@
 # RNA-seq Pipeline and Analysis
 
-**Author:** [Your Name]  
-**Date:** February 2025  
 
 This repository contains my custom RNA-seq pipeline and analysis workflow, designed to process RNA-seq data and perform differential gene expression (DGE) analysis. It includes a Bash script for preprocessing and alignment, and an R script for statistical analysis and visualization.
 
@@ -30,7 +28,8 @@ The pipeline is configured for my local setup (`/Users/tarun/Desktop/RNASeq_pipe
   - `hisat2`  
   - `samtools`  
   - `featureCounts`  
-  - `multiqc`  
+  - `multiqc`
+    
   (Install via Bioconda: `conda install -c bioconda fastqc trimmomatic hisat2 samtools subread multiqc`)  
 - **R**: Install R and RStudio (https://www.rstudio.com/).  
 - **R Packages**: Listed in `RNAseq_analysis.R` (e.g., DESeq2, ggplot2, clusterProfiler, etc.). Install them by running the script’s setup section.
